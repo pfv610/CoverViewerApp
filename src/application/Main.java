@@ -16,6 +16,7 @@ public class Main extends Application {
 	
 	@Override
 	public void start(Stage primaryStage) {
+		System.out.println("Test");
 		try {
 			// give access to the other controllers to this primary stage!
 			stage = primaryStage;
